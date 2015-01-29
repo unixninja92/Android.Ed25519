@@ -1,3 +1,12 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0'
+    }
+}
+
 apply plugin: 'android-library'
 
 dependencies {
@@ -5,8 +14,8 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 17
-    buildToolsVersion "18.0.1"
+    compileSdkVersion 19
+    buildToolsVersion "19.1"
 
     sourceSets {
         main {
